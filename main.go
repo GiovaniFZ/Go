@@ -4,6 +4,7 @@ import (
 	"github.com/GiovaniFZ/Go/errorTest"
 	"github.com/GiovaniFZ/Go/maps"
 	"github.com/GiovaniFZ/Go/meet"
+	"github.com/GiovaniFZ/Go/pointers"
 	"github.com/GiovaniFZ/Go/texts"
 )
 
@@ -13,4 +14,5 @@ func main() {
 	texts.StringsGo()
 	errorTest.ErrorTest()
 	maps.CheckPlayers()
+	pointers.People()
 }
