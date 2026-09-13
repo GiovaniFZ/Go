@@ -3,6 +3,7 @@ package maps
 import "fmt"
 
 func CheckPlayers() {
+	fmt.Println("---------------------")
 	players := map[string]int{
 		"giovani": 23,
 	}
@@ -13,5 +14,4 @@ func CheckPlayers() {
 	// if value, ok := players["giovani"]; ok {
 	// 	fmt.Println(value, ok)
 	// }
-
 }

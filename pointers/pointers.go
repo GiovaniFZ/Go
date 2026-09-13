@@ -7,6 +7,7 @@ type Pessoa struct {
 }
 
 func People() {
+	fmt.Println("---------------------")
 	var p1 Pessoa = Pessoa{Nome: "Giovani"}
 	fmt.Println("-----PESSOAS------")
 	fmt.Println("Antes da modificação: ", p1.Nome)

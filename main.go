@@ -5,6 +5,7 @@ import (
 	"github.com/GiovaniFZ/Go/maps"
 	"github.com/GiovaniFZ/Go/meet"
 	"github.com/GiovaniFZ/Go/pointers"
+	"github.com/GiovaniFZ/Go/routines"
 	"github.com/GiovaniFZ/Go/texts"
 )
 
@@ -15,4 +16,6 @@ func main() {
 	errorTest.ErrorTest()
 	maps.CheckPlayers()
 	pointers.People()
+	routines.ExecuteRoutine()
+	routines.Multiple()
 }

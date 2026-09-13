@@ -6,7 +6,8 @@ import (
 )
 
 func ErrorTest() {
-	if err := throwAnError();err != nil {
+	fmt.Println("---------------------")
+	if err := throwAnError(); err != nil {
 		fmt.Println(err.Error())
 	}
 }
